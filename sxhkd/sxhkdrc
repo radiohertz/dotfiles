@@ -1,0 +1,21 @@
+
+# audio keybinds
+XF86AudioRaiseVolume
+    ~/scripts/incvol.sh
+
+XF86AudioLowerVolume
+    ~/scripts/decvol.sh
+
+# brightness keybinds
+XF86MonBrightnessUp
+    ~/scripts/incbrit.sh
+
+XF86MonBrightnessDown
+    ~/scripts/decbrit.sh
+
+# toggle audio mute/unmute
+XF86AudioMute
+    ~/scripts/mute.sh
+
+super + l
+	systemctl suspend
